@@ -18,8 +18,8 @@ const Photo = () => {
                 transition: {delay: 2.4, 
                 duration: 0.4, 
                 ease: "easeInOut"}}} 
-                className="w-[298px] h-[298px] xl:w-[400px]
-                xl:h-[400px] mix-blend-lighten absolute">
+                className="w-[220px] h-[220px] xl:w-[390px]
+                xl:h-[390px] mix-blend-lighten absolute ml-[40px] xl:ml-[30px]">
                     <Image src="/assets/bolaji.png" priority
                     quality={100}
                     fill
@@ -36,7 +36,7 @@ const Photo = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 >
                     <motion.circle cx="253" cy="253" r="250" 
-                    stroke="#00ff99"
+                    stroke="#87CEEB"
                     strokeWidth="4"
                     strokeLinecap="round"
                     strokeLinejoin="round"
