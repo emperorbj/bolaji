@@ -29,9 +29,9 @@ const projects = [
                 name: "Tailwind-Css"
             }
         ],
-        image:"/assets/work/thumb1.png",
-        live: "",
-        github: ""
+        image:"/assets/work/meditechy.png",
+        live: "https://meditechy.vercel.app/",
+        github: "https://github.com/emperorbj/meditechy"
     },
     {
         num: "02",
@@ -50,29 +50,29 @@ const projects = [
             },
 
         ],
-        image:"/assets/work/thumb2.png",
-        live: "",
-        github: ""
+        image:"/assets/work/missionsite.png",
+        live: "https://missionsite.vercel.app/",
+        github: "https://github.com/emperorbj/missionsite"
     },
     {
         num: "03",
-        category: "full-stack",
-        title: "",
-        description: "A responsive website for job postings",
+        category: "frontend",
+        title: "Fashion Nation",
+        description: "A responsive website for clothe e-commerce",
         stack: [
             {
-                name: "Next.js"
+                name: "Html5"
             },
             {
-                name: "Tailwind-Css"
+                name: "Css3"
             },
             {
-                name: "Node.js"
+                name: "Javascript"
             },
         ],
-        image:"/assets/work/thumb3.png",
-        live: "",
-        github: ""
+        image:"/assets/work/ecommerce.png",
+        live: "https://e-commerce-af44f.web.app",
+        github: "https://github.com/emperorbj/E-commerce-site"
     },
     {
         num: "04",
@@ -89,8 +89,8 @@ const projects = [
 
         ],
         image:"/assets/work/ai.jpg",
-        live: "",
-        github: ""
+        live: "https://tube-alpha.vercel.app/",
+        github: "https://github.com/emperorbj/tube"
     },
     {
         num: "05",
@@ -109,8 +109,8 @@ const projects = [
             }
         ],
         image:"/assets/work/alien.jpg",
-        live: "",
-        github: ""
+        live: "https://moviepedia-kohl.vercel.app",
+        github: "https://github.com/emperorbj/moviepedia"
     },
     {
         num: "06",
@@ -126,11 +126,31 @@ const projects = [
             }
         ],
         image:"/assets/work/expenseTracker.jpg",
-        live: "",
-        github: ""
+        live: "https://expensetrack-two.vercel.app",
+        github: "https://github.com/emperorbj/expensetrack"
     },
     {
         num: "07",
+        category: "frontend",
+        title: "Old Portfolio Site",
+        description: "My first portfolio site",
+        stack: [
+            {
+                name: "Html5"
+            },
+            {
+                name: "Css3"
+            },
+            {
+                name: "Javascript"
+            }
+        ],
+        image:"/assets/work/oldportfolio.png",
+        live: "https://portfolio-sigma-ten-60.vercel.app/",
+        github: "https://github.com/emperorbj/mysite"
+    },
+    {
+        num: "08",
         category: "backtend",
         title: "Tim Super store API",
         description: "A simple API for Tim super store",
