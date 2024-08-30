@@ -47,7 +47,7 @@ const Contact = () => {
                         <form className="flex flex-col gap-6 p-10 bg-[#27272c]
                         rounded-xl">
                             <h3 className="text-4xl text-sky-400">Connect and let us work</h3>
-                            <p className="text-white/60">lorem opi hluy mzy wuyw liuhjiu kjhjhsu vuFTF WEI76E </p>
+                            
                             {/* inputs */}
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                                 <Input type="firstname" placeholder="First name"/>
@@ -85,7 +85,8 @@ const Contact = () => {
                                 return (
                                     <li className="flex items-center gap-6" key={index}>
                                         <div className="w-[52px] h-[52px] xl:w-[72px] xl:h-[72px]
-                                        bg-[#27272c] text-sky-400 rounded-md flex items-center justify-center">
+                                        bg-[#27272c] text-sky-400 rounded-md flex items-center 
+                                        justify-center">
                                             <div className="text-[28px]">{item.icon}</div>
                                         </div>
                                         <div className="flex-1">

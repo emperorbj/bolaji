@@ -204,7 +204,7 @@ const Work = () => {
         className="min-h-[80vh] flex flex-col justify-center py-12 xl:px-0">
         <div className="container mx-auto">
             <div className="flex flex-col xl:flex-row xl:gap-[30px]">
-                <div className="w-full xl:w-[50%] xl:h-[460px flex 
+                <div className="w-full xl:w-[50%] xl:h-[460px] flex 
                 flex-col xl:justify-between order-2 xl:order-none ">
                     <div className="flex flex-col gap-[30px] h-[50%]">
                         {/* outline num */}
@@ -271,7 +271,8 @@ const Work = () => {
                         {projects.map((project,index)=>{
 
                             return <SwiperSlide className="w-full" key={index}>
-                                <div className="h-[460px] relative group flex justify-center
+                                <div className="h-[460px] relative group flex 
+                                justify-center
                                 items-center bg-pink-50/20 rounded-[10px]">
                                     {/* overlay */}
                                     <div className="absolute top-0 bottom-0 w-full
@@ -290,7 +291,8 @@ const Work = () => {
                         <WorkSliderButtons
                         iconStyles="text-slate-800" 
                         containerStyles="flex gap-2 absolute
-                        right-0 bottom-[calc(50%_-_22px)] xl:bottom-0 z-20 w-full justify-between xl:w-max xl:justify-none"
+                        right-0 bottom-[calc(50%_-_22px)] xl:bottom-0 z-20 w-full 
+                        justify-between xl:w-max xl:justify-none"
                         />
                     </Swiper>
                 </div>

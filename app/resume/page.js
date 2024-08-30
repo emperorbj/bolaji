@@ -99,8 +99,18 @@ const experience = {
 const education = {
     icon: "/assets/resume/cap.svg",
     title: "Educational Background",
-    description: "lorem iiuio liuirioul ryhjg,utgtir liuyj.oyi ewliyiey wei ",
+    description: "The following are my educational background and certifications",
     items: [
+        {
+            institution: "Free Code Camp",
+            degree: "Backend Development Course",
+            duration: "2024"
+        },
+        {
+            institution: "ALX Bootcamp",
+            degree: "AI Essentials Course",
+            duration: "2024"
+        },
         {
             institution: "Google Cloud Academy",
             degree: "Google Cloud For Developers Course",
@@ -212,7 +222,8 @@ const Resume = () => {
                                 <ul className="grid grid-cols-1 lg:grid-cols-2 gap-[30px]">
                                     {experience.items.map((items,index)=>{
                                         return (
-                                            <li key={index} className="bg-[#232329] py-6 px-10 rounded-xl 
+                                            <li key={index} className="bg-[#232329] py-6 px-10 
+                                            rounded-xl 
                                             flex flex-col 
                                             justify-center items-center 
                                             lg:items-start gap-1">
@@ -277,15 +288,18 @@ const Resume = () => {
                                 <p className="max-w-[600px] text-white/60 mx-auto
                                 xl:mx-0">{skills.description}</p>
                             </div>
-                            <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 xl:gap-[30px]">
+                            <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 
+                            xl:gap-[30px]">
                                 {skills.skillList.map((skill,index)=>{
                                     return (
                                         <li key={index}>
                                             <TooltipProvider delayDuration={100}>
                                                 <Tooltip>
-                                                    <TooltipTrigger className="w-full h-[150px] bg-[#232329]
+                                                    <TooltipTrigger className="w-full h-[150px] 
+                                                    bg-[#232329]
                                                     rounded-xl flex justify-center items-center group">
-                                                        <div className="text-6xl group-hover:text-sky-400
+                                                        <div className="text-6xl 
+                                                        group-hover:text-sky-400
                                                         transition-all duration-500">
                                                             {skill.icon}
                                                         </div>
