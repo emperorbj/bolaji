@@ -162,15 +162,15 @@ const projects = [
                 name: "MongoDB"
             }
         ],
-        image:"/assets/work/thumb3.png",
-        live: "",
-        github: ""
+        image:"/assets/work/thumb2.png",
+        live: "https://my-store-api-docs.vercel.app/",
+        github: "https://github.com/emperorbj/myStoreApiDocs"
     },
     {
         num: "07",
         category: "backtend",
-        title: "Tim Super store API",
-        description: "A simple API for Tim super store",
+        title: "Tech Blog API",
+        description: "A simple API for a Tech blog",
         stack: [
             {
                 name: "Node.js"
@@ -179,9 +179,9 @@ const projects = [
                 name: "MongoDB"
             }
         ],
-        image:"/assets/work/thumb3.png",
-        live: "",
-        github: ""
+        image:"/assets/work/techblog.jfif",
+        live: "https://social-api-docs.vercel.app/",
+        github: "https://github.com/emperorbj/socialapi"
     }
 ]
 const Work = () => {
