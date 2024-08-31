@@ -179,7 +179,7 @@ const projects = [
                 name: "MongoDB"
             }
         ],
-        image:"/assets/work/techblog.jfif",
+        image:"/assets/work/blog.jpg",
         live: "https://social-api-docs.vercel.app/",
         github: "https://github.com/emperorbj/socialapi"
     }
