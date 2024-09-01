@@ -24,7 +24,7 @@ export default function Home() {
             </p>
             {/* cv and socials buttons */}
             <div className="flex flex-col xl:flex-row items-center gap-2 ">
-              <Link href="https://drive.google.com/file/d/1T4NkKJxrMO3WbsxygO_O_V3htIdEYtq_/view?usp=sharing">
+              <Link href="https://drive.google.com/file/d/1U5q5pC8jZgBm66G-1VBa54Lw8M5g1Lgu/view?usp=sharing">
               <Button variant='outline' size='lg' className='uppercase flex items-center gap-2'>
                 <span>Download CV</span>
                 <FiDownload className="text-xl"/>
