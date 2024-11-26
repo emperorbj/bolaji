@@ -19,8 +19,8 @@ const projects = [
     {
         num: "01",
         category: "frontend",
-        title: "Meditechy Africa Site",
-        description: "A responsive website for Meditechy Africa, a health-techh startup",
+        title: "Ulife",
+        description: "A part of a heaith tracking system for health-tech startup",
         stack: [
             {
                 name: "React.js"
@@ -29,9 +29,9 @@ const projects = [
                 name: "Tailwind-Css"
             }
         ],
-        image:"/assets/work/meditechy.png",
-        live: "https://meditechy.vercel.app/",
-        github: "https://github.com/emperorbj/meditechy"
+        image:"/assets/work/ulife.png",
+        live: "https://u-life-flax.vercel.app/ ",
+        github: "https://github.com/emperorbj/ULife"
     },
     {
         num: "02",
@@ -167,7 +167,7 @@ const projects = [
         github: "https://github.com/emperorbj/myStoreApiDocs"
     },
     {
-        num: "07",
+        num: "09",
         category: "backtend",
         title: "Tech Blog API",
         description: "A simple API for a Tech blog",
@@ -182,6 +182,40 @@ const projects = [
         image:"/assets/work/blog.jpg",
         live: "https://social-api-docs.vercel.app/",
         github: "https://github.com/emperorbj/socialapi"
+    },
+    {
+        num: "10",
+        category: "frontend",
+        title: "Upgrade",
+        description: "A landing page for a fintech company",
+        stack: [
+            {
+                name: "React"
+            },
+            {
+                name: "Tailwind css"
+            }
+        ],
+        image:"/assets/work/upgradefintech.png",
+        live: "https://fintech-beryl.vercel.app/",
+        github: "https://github.com/emperorbj/fintech"
+    },
+    {
+        num: "11",
+        category: "frontend",
+        title: "Wecare",
+        description: "A part a of a health management dashboard`",
+        stack: [
+            {
+                name: "React"
+            },
+            {
+                name: "Tailwind css"
+            }
+        ],
+        image:"/assets/work/wecare.png",
+        live: "https://dasboard-taupe-three.vercel.app/ ",     
+        github: "https://github.com/emperorbj/dasboard"
     }
 ]
 const Work = () => {

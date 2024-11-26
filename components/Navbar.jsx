@@ -24,7 +24,6 @@ const Links = [
         path: "/contact "
     }
 ]
-
 const Navbar = () => {
     const pathname = usePathname();
     return (
